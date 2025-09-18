@@ -31,7 +31,7 @@ If you are on OSX version 10.4 or greater, you probably already have SQLite
 installed. Find out by opening up the terminal and running:
 
 ```console
-$ which sqlite3
+which sqlite3
 /usr/bin/sqlite3
 ```
 
@@ -47,7 +47,7 @@ You can install SQLite using Homebrew, which you should have installed as part
 of your Flatiron environment setup. Install SQLite with:
 
 ```console
-$ brew install sqlite
+brew install sqlite
 ```
 
 #### OSX: Install From Binary
@@ -107,7 +107,7 @@ database using both SQLite in the terminal as well as the VSCode extension.
 In your terminal, type:
 
 ```console
-$ sqlite3 chinook.db
+sqlite3 chinook.db
 ```
 
 This will open the `chinook.db` file in the SQLite prompt. You should see
@@ -204,7 +204,7 @@ Browser.
 To locate the database file in the WSL file system, from your terminal, type:
 
 ```console
-$ explorer.exe .
+explorer.exe .
 ```
 
 This will open the current directory in Windows File Explorer:
